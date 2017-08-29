@@ -10,7 +10,7 @@ public class GoogleMap implements MapApi{
     return location;
   }
   public void moveTo(double lat, double lng) {
-    //ÀÌµ¿Çß´Ù.
+    //ì´ë™í–ˆë‹¤.
   }
   public String darkTheme() {
     return "DarkTheme-Apply";
@@ -22,11 +22,11 @@ public class GoogleMap implements MapApi{
   @Override
   public String moveToSuwon() {
     moveTo( 37.263363,127.028625 );
-    return "¼ö¿ø (37.263363,127.028625)";
+    return "ìˆ˜ì› (37.263363,127.028625)";
   }
   @Override
   public String moveToSeoul() {
     moveTo( 37.564374,126.975586 );
-    return "¼­¿ï ( 37.564374,126.975586 )";
+    return "ì„œìš¸ ( 37.564374,126.975586 )";
   }
 }

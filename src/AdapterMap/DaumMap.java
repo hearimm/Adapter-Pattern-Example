@@ -1,17 +1,17 @@
 package AdapterMap;
 
 public class DaumMap implements MapApi {
-  String mapName = "´ÙÀ½¸Ê";
+  String mapName = "ë‹¤ìŒë§µ";
 
   public String drawMap() {
     return mapName;
   }
 
   public String moveToSuwon() {
-    return "¼ö¿ø";
+    return "ìˆ˜ì›";
   }
 
   public String moveToSeoul() {
-    return "¼­¿ï";
+    return "ì„œìš¸";
   }
 }

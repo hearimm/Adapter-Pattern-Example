@@ -9,14 +9,14 @@ public class Client {
     mapInfo(googleMap);
     
     //map.darkTheme(); // error:The method darkTheme() is undefined for the type MapApi
-    ((GoogleMap) googleMap).darkTheme(); // OK! MapApi¿¡ ¾ø´Â ±â´ÉÀ» ¾²·Á¸é ´Ù¿îÄ³½ºÆÃ
+    ((GoogleMap) googleMap).darkTheme(); // OK! MapApiì— ì—†ëŠ” ê¸°ëŠ¥ì„ ì“°ë ¤ë©´ ë‹¤ìš´ìºìŠ¤íŒ…
   }
 
   public static void mapInfo(MapApi map) {
     System.out.println("\n");
-    System.out.println("¸Ê Á¾·ù: " + map.drawMap());
-    System.out.println("¼ö¿øÀ¸·Î >> " + map.moveToSuwon());
-    System.out.println("¼­¿ï·Î >> " + map.moveToSeoul());
+    System.out.println("ë§µ ì¢…ë¥˜: " + map.drawMap());
+    System.out.println("ìˆ˜ì›ìœ¼ë¡œ >> " + map.moveToSuwon());
+    System.out.println("ì„œìš¸ë¡œ >> " + map.moveToSeoul());
   }
 
 }
